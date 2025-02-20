@@ -1,4 +1,4 @@
-#  🪄 Hi, I'm Prasad! 	🛸  
+#   Hi, I'm Prasad! 	🛸  
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" width="150" height="40" />    <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js" width="150" height="42" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" width="150" height="40" />     <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" width="150" height="40" />

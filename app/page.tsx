@@ -22,9 +22,10 @@ export default async function HomePage() {
   let jobs: any[] = [];
   try {
     await connectDB();
-    jobs = await Job.find().populate("postedBy", "name").sort({ createdAt: -1 }).limit(6).lean();
-  } catch {
-    // DB not available
+    const fetchedJobs = await Job.find().populate("postedBy", "name").sort({ createdAt: -1 }).limit(6).lean();
+    jobs = JSON.parse(JSON.stringify(fetchedJobs));
+  } catch (error) {
+    console.error("DB Error:", error);
   }
 
   const formatDate = (date: string) => {

@@ -1,71 +1,105 @@
-#   Hi, I'm Prasad! 	🛸  
+# 🚀 JobBoard Premium - Modern Career Portal
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" width="150" height="40" />    <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js" width="150" height="42" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" width="150" height="40" />     <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" width="150" height="40" />
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
----
-_🚀 **Full-Stack Node.js Developer | Backend Maestro | Problem-Solver🧩**_
----
-
-I am a passionate Backend Developer from India , dedicated to building robust and scalable backend systems 🖥️.
-
-I specialize in modern backend technologies like Node.js, Express.js, and MongoDB 🛠️, with a focus on creating efficient, high-performance solutions ⚡. 
-
-Currently, I am expanding my skills towards full-stack development 🔄, and I thoroughly enjoy crafting seamless, integrated systems that power 🌐 web applications  :octocat: .
-
-
-
-
-## 🙋‍♂️ About Me💫
-
-- 🔭 I’m currently working on Creating a web application for messaging and calling for recruiters.
-- 🌱 I’m constantly learning and exploring technologies like:
-  - Node.js
-  - Express.js                                                
-  - MongoDB, PostgreSQL
-  - TypeScript
-  - Docker, Kubernetes, Kafka
-- 👯 I’m looking to collaborate on backend development projects or open-source initiatives.
-- 💬 Ask me about **Node.js**, **API design**, and **database optimization**.
-- 📫 How to reach me: prasaddp1137@gmail.com
+**JobBoard Premium** is a full-stack, state-of-the-art job portal designed to provide a seamless experience for both recruiters and job seekers. Built with **Next.js 15 (App Router)** and **MongoDB**, it features a stunning responsive UI, secure JWT authentication, and a robust job management system.
 
 ---
 
-## 🛠️ Skills
+## ✨ Key Features
 
-### Programming Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
+- **🎯 Massive Job Database**: Seeded with **40+ high-quality jobs** from top companies like Google, Microsoft, Amazon, and leading Indian unicorns.
+- **📱 Fully Responsive Design**: A mobile-first approach with a custom-built, animated navigation bar and fluid layouts.
+- **🔐 Secure Authentication**: JWT-based session management with HttpOnly cookies for maximum security.
+- **💼 Comprehensive Dashboards**: Dedicated views for users to track their applications and for recruiters to manage listings.
+- **✨ Rich UI/UX**: Glassmorphism effects, smooth transitions, and premium typography using Inter and Outfit.
+- **🛠️ Recruiters Tools**: Intuitive job posting flow and application tracking.
 
+---
 
-### Backend Frameworks
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
-![Middleware](https://img.shields.io/badge/Middleware-000000?logo=express&logoColor=white)
-![Routes](https://img.shields.io/badge/Routes-000000?logo=express&logoColor=white)
-![Web Socket](https://img.shields.io/badge/WebSocket-%20.io-blue)
-![REST API](https://img.shields.io/badge/REST%20API-red)
-![Fetch API](https://img.shields.io/badge/Fetch%20API-000000?logo=javascript&logoColor=white)
+## 🛠️ Technology Stack
 
-![JWT Authentication](https://img.shields.io/badge/JWT%20Authentication-000000?logo=json-web-tokens&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
+- **Frontend**: Next.js 15, React 19, Lucide Icons, Headless UI
+- **Styling**: Tailwind CSS, CSS Variables for dynamic themes
+- **Backend**: Next.js API Routes, Mongoose ODM
+- **Database**: MongoDB Atlas / Local MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Notifications**: Sonner (Rich Toast Notifications)
 
+---
 
+## 🚀 Getting Started
 
+### Prerequisites
 
+- Node.js 18+ 
+- MongoDB (Local or Atlas)
+- npm or yarn
 
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/prasadp1307/job-portal-premium.git
+   cd job-portal-premium
+   ```
 
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+3. **Set up environment variables**
+   Create a `.env.local` file in the root directory:
+   ```env
+   MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_secret_key
+   ```
 
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
+---
 
+## 📡 API Endpoints
 
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `POST` | `/api/auth/signup` | Register a new user |
+| `POST` | `/api/auth/login` | Login and get session |
+| `GET` | `/api/user/me` | Get current user details |
+| `GET` | `/api/jobs` | Fetch and filter job listings |
+| `POST` | `/api/jobs/create` | Post a new job (Recruiter) |
+| `POST` | `/api/jobs/[id]/apply` | Apply for a specific job |
 
-update with react and next js and nest js graph ql also 
+---
+
+## 🎨 UI Preview
+
+*(Add your screenshots here)*
+
+- **Home Page**: A stunning hero section with latest job highlights.
+- **Job Details**: Comprehensive job overview with requirements and quick apply.
+- **Dashboard**: Track all your activities in one place.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 👤 Author
+
+**Prasad P**
+- GitHub: [@prasadp1307](https://github.com/prasadp1307)
+- Email: prasaddp1137@gmail.com
+
+---
+*Built with ❤️ for the community.*

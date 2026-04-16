@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import ChatBot from "@/components/ChatBot";
 import { Toaster } from "sonner";
 
 const inter = Inter({
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className="antialiased bg-slate-50">
         <Navbar />
         <main>{children}</main>
+        <ChatBot />
         <Toaster
           position="top-right"
           toastOptions={{

@@ -1,4 +1,5 @@
 import JobCard from "@/components/JobCard";
+import FAQ from "@/components/FAQ";
 import Link from "next/link";
 import { getSession } from "@/lib/auth";
 import { connectDB } from "@/lib/db";
@@ -137,6 +138,8 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      <FAQ />
 
       <footer className="py-8 px-4 text-center border-t border-slate-200">
         <p className="text-sm text-slate-500">

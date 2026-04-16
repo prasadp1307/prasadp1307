@@ -1,0 +1,208 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "company": "Tech Corp",
+      "description": "Looking for an experienced React developer with 5+ years of experience.",
+      "salary": "$120,000 - $150,000",
+      "location": "San Francisco, CA",
+      "postedBy": "1",
+      "createdAt": "2024-03-01"
+    },
+    {
+      "id": "2",
+      "title": "Full Stack Developer",
+      "company": "StartUp Inc",
+      "description": "Build web applications using Node.js and React.",
+      "salary": "$100,000 - $130,000",
+      "location": "Remote",
+      "postedBy": "2",
+      "createdAt": "2024-03-02"
+    },
+    {
+      "id": "3",
+      "title": "Backend Engineer",
+      "company": "Data Systems",
+      "description": "Design and maintain scalable backend systems.",
+      "salary": "$130,000 - $160,000",
+      "location": "New York, NY",
+      "postedBy": "1",
+      "createdAt": "2024-03-03"
+    },
+    {
+      "id": "f138",
+      "title": "React Developer ",
+      "company": "company 1",
+      "description": "Should have good redux knowledge",
+      "salary": "8-10",
+      "location": "Pune",
+      "postedBy": "3",
+      "createdAt": "2026-03-11"
+    },
+    {
+      "id": "e5ea",
+      "title": "Node",
+      "company": "company 1",
+      "description": "Rest API",
+      "salary": "10-14",
+      "location": "Pune",
+      "postedBy": "1",
+      "createdAt": "2026-03-11"
+    },
+    {
+      "id": "f78a",
+      "title": "Angular",
+      "company": "neosoft",
+      "description": "ui developer",
+      "salary": "10-12",
+      "location": "pune",
+      "postedBy": "fbe3",
+      "createdAt": "2026-03-13"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "pass123",
+      "role": "employer"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "pass123",
+      "role": "employer"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "password": "pass123",
+      "role": "jobseeker"
+    },
+    {
+      "id": "60b7",
+      "name": "Test",
+      "email": "testUser@gmail.com",
+      "password": "pass123",
+      "role": "jobseeker"
+    },
+    {
+      "id": "2c36",
+      "name": "Demo Emp",
+      "email": "demoEmp@gmail.com",
+      "password": "pass123",
+      "role": "employer"
+    },
+    {
+      "id": "fbe3",
+      "name": "demo new",
+      "email": "demoNew@gmail.com",
+      "password": "pass123",
+      "role": "employer"
+    },
+    {
+      "id": "384c",
+      "name": "demo user new",
+      "email": "demoUserNew@gmail.com",
+      "password": "pass123",
+      "role": "jobseeker"
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "jobId": "1",
+      "userId": "3",
+      "userName": "Bob Johnson",
+      "userEmail": "bob@example.com",
+      "resume": "Experienced React developer with 6 years of experience",
+      "appliedAt": "2024-03-10"
+    },
+    {
+      "id": "fec3",
+      "jobId": "1",
+      "userId": "3",
+      "userName": "first last",
+      "userEmail": "firstlast@gmail",
+      "resume": "Resume",
+      "appliedAt": "2026-03-11"
+    },
+    {
+      "id": "d584",
+      "jobId": "2",
+      "userId": "60b7",
+      "userName": "test",
+      "userEmail": "test@gmail.com",
+      "resume": "react developer",
+      "appliedAt": "2026-03-11"
+    },
+    {
+      "id": "5f0d",
+      "jobId": "1",
+      "userId": "60b7",
+      "userName": "test",
+      "userEmail": "test@gmail.com",
+      "resume": "API",
+      "appliedAt": "2026-03-11"
+    },
+    {
+      "id": "3931",
+      "jobId": "1",
+      "userId": "60b7",
+      "userName": "Test",
+      "userEmail": "test@gmail.com",
+      "resume": "Resume",
+      "appliedAt": "2026-03-13"
+    },
+    {
+      "id": "dace",
+      "jobId": "2",
+      "userId": "60b7",
+      "userName": "test",
+      "userEmail": "test@gmail.com",
+      "resume": "full stack",
+      "appliedAt": "2026-03-13"
+    },
+    {
+      "id": "30e1",
+      "jobId": "3",
+      "userId": "60b7",
+      "userName": "test",
+      "userEmail": "testUser@gmail.com",
+      "resume": "Test resume",
+      "appliedAt": "2026-03-13"
+    },
+    {
+      "id": "a1aa",
+      "jobId": "2",
+      "userId": "60b7",
+      "userName": "Test",
+      "userEmail": "testUser@gmail.com",
+      "resume": "redirection test",
+      "appliedAt": "2026-03-13"
+    },
+    {
+      "id": "6e3d",
+      "jobId": "3",
+      "userId": "60b7",
+      "userName": "Test",
+      "userEmail": "testUser@gmail.com",
+      "resume": "resume",
+      "appliedAt": "2026-03-13"
+    },
+    {
+      "id": "aeef",
+      "jobId": "f78a",
+      "userId": "384c",
+      "userName": "demo user new",
+      "userEmail": "demoUserNew@gmail.com",
+      "resume": "resume",
+      "appliedAt": "2026-03-13"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

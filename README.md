@@ -18,6 +18,36 @@
 - **✨ Rich UI/UX**: Glassmorphism effects, smooth transitions, and premium typography using Inter and Outfit.
 - **🛠️ Recruiters Tools**: Intuitive job posting flow and application tracking.
 
+## 🏗️ System Design
+
+The application follows a modern cloud-native architecture leveraging Next.js as a full-stack framework.
+
+```mermaid
+graph TD
+    subgraph Client ["Client (Web Browser)"]
+        UI["React 19 Frontend"]
+        State["React Hooks State"]
+        Cookies["Secure JWT Cookies"]
+    end
+
+    subgraph Service ["Next.js App Router (Server-side)"]
+        Auth["Auth Middleware / getSession()"]
+        Pages["Server Components (Static/Dynamic Rendering)"]
+        APIs["API Routes (Serverless Functions)"]
+    end
+
+    subgraph Storage ["Persistent Storage"]
+        DB[(MongoDB Database)]
+    end
+
+    %% Interactions
+    UI <--> Auth
+    Pages <--> DB
+    APIs <--> DB
+    UI -- "Fetch API Requests" --> APIs
+    Auth -- "Validates Token" --> Cookies
+```
+
 ---
 
 ## 🛠️ Technology Stack
@@ -81,11 +111,20 @@
 
 ## 🎨 UI Preview
 
-*(Add your screenshots here)*
-
-- **Home Page**: A stunning hero section with latest job highlights.
-- **Job Details**: Comprehensive job overview with requirements and quick apply.
-- **Dashboard**: Track all your activities in one place.
+<div align="center">
+  <h3>Home Page</h3>
+  <img src="./public/screenshots/home.png" width="800" alt="Home Page" />
+  
+  <br/><br/>
+  
+  <h3>Job Listings</h3>
+  <img src="./public/screenshots/jobs.png" width="800" alt="Jobs Page" />
+  
+  <br/><br/>
+  
+  <h3>Login Interface</h3>
+  <img src="./public/screenshots/login.png" width="800" alt="Login Page" />
+</div>
 
 ---
 
